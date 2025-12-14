@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Portrait Profile Card</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #f0f2f5;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+
+    .profile-card {
+      background: #ffffff;
+      width: 280px;
+      border-radius: 15px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+      padding: 25px;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .profile-card img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      margin-bottom: 15px;
+      border: 4px solid #ddd;
+    }
+
+    .profile-card h2 {
+      font-size: 22px;
+      margin: 10px 0 5px;
+      color: #333;
+    }
+
+    .profile-card .job-title {
+      font-size: 16px;
+      color: #777;
+      margin-bottom: 15px;
+    }
+
+    .profile-card .details {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 20px;
+      line-height: 1.5;
+    }
+
+    .profile-card .social-links {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+    }
+
+    .profile-card .social-links a {
+      text-decoration: none;
+      color: #555;
+      font-size: 20px;
+      transition: color 0.3s ease;
+    }
+
+    .profile-card .social-links a:hover {
+      color: #0077b5; /* LinkedIn blue */
+    }
+
+    /* Optional: unique hover colors for each platform */
+    .social-links a.instagram:hover {
+      color: #E1306C;
+    }
+
+    .social-links a.facebook:hover {
+      color: #4267B2;
+    }
+
+    .social-links a.linkedin:hover {
+      color: #0077B5;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="profile-card">
+    <img src="images\me.jpeg" alt="MY PHOTOS">>
+    <h2>Ayan Pramanick</h2>
+    <div class="job-title">Full Stack Developer</div>
+
+    <div class="details">
+      📍 <strong>Location:</strong> Kolkata,West Bengal, India<br>
+      💼 <strong>Experience:</strong > 3+  years<br>
+      🧑‍💻 <strong>Profile:</strong> Black-Hat Specialist 
+    </div>
+
+    <div class="social-links">
+      <a href="https://www.instagram.com/_ayanvibes/?igsh=MW4wcmlrMjBqYnA4Zw%3D%3D#" class="instagram" target="_blank" title="Instagram">📷</a>
+      <a href="https://www.facebook.com/people/Ay-An/pfbid02C1z3zHbpvTN1cN4BoMVZVjPpnXyZ6n1aQuJQ5P2Wkzd1vS5ZVRdauaCWLsinDEmEl/?rdid=SGw9XolvEC8BeAh8&share_url=https%3A%2F%2Fwww.facebook.com%2Fshare%2F1CgkgRbEgL%2F" class="facebook" target="_blank" title="Facebook">📘</a>
+      <a href="https://www.linkedin.com/in/ayan-pramanick-86a479255?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="linkedin" target="_blank" title="LinkedIn">🔗</a>
+    </div>
+  </div>
+
+</body>
+</html>
